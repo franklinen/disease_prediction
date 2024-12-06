@@ -5,14 +5,14 @@
 - Project Goals 
 - Methodology 
 - Exploratory Analysis
+    - Symptom Distribution 
+
 
 
 ## Executive Summary
 This project serves as the final unit of the University of Toronto DSI Machine Learning Certificate Diploma. All contributors are visible within the repository. 
 
 Our project leverages [this Kaggle dataset](https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning) to implement machine learning solutions aimed at clustering patients based on their symptoms, as well as determining symptoms that are the most important predictors for disease diagnosis.
-
-This summary will be updated with results as the project progressess. 
 
 
 ## Problem Statement
@@ -32,7 +32,7 @@ Healthcare providers often struggle to quickly diagnose diseases due to a wide r
 
 
 ## Exploratory Analysis 
-- **Predictor Variables:** A total of 131 predictors are present in the dataset. Each predictor represents a symptom reported by a client. Each one has a value of 1 (symptom is present) or 0 (symptom is absent). 
+- **Predictor Variables:** A total of 131 predictors are present in the dataset. Each predictor represents a symptom reported by a client. Each row has a value of 1 (symptom is present) or 0 (symptom is absent). 
 
 - **Target Variables:** This dataset has one target variable, labeled as `prognosis`. This represents the disease a client is diagnosed with. There are 41 possible diagnoses included in the dataset, all represented as text. 
 
@@ -49,3 +49,10 @@ A goal of this study is to determine the most significant symptom that indicates
 We found that clients diagnosed with the Common Cold reported more symptoms overall (17), followed closesly by Tuberculosis (16) Dengue (14) and Hepatitis E/Hyperthyroidism (13). 
 
 ![Number of Unique Symptoms per Prognosis](images/unique_symptoms_per_prognosis.png)
+
+We also decided to look at the symptoms that occurred the most accross diseases. Fatigue, Vomiting, High Fever, Loss of Appetite and Nausea make up the top 5 most occurring symptoms accross diseases. The top 10 most occurring are shown in the plot below: 
+
+![Most Frequently Occurring Symptoms](images/symptoms_total_count.png)
+
+These observations provide us with insight on which symptoms might be most important to watch for, as well as which diseases our models might be biased towards when making predictions based on symptoms. 
+
