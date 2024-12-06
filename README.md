@@ -30,7 +30,6 @@ Healthcare providers often struggle to quickly diagnose diseases due to a wide r
 - Exploratory Analysis and Initial Visualization
 - Model Selection and Feature Engineering 
 - Model Assessment 
-- Conclusion and Next Steps 
 
 
 ## Exploratory Analysis 
