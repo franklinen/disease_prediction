@@ -6,7 +6,9 @@
 - Methodology 
 - Exploratory Analysis
     - Symptom Distribution 
-
+    - Correlation
+- Model Selection & Feature Engineering 
+- Model Results 
 
 
 ## Executive Summary
@@ -56,3 +58,15 @@ We also decided to look at the symptoms that occurred the most accross diseases.
 
 These observations provide us with insight on which symptoms might be most important to watch for, as well as which diseases our models might be biased towards when making predictions based on symptoms. 
 
+### Correlation
+We chose to review correlation between variables in the event of any high correlation between feature and target. A correlation matrix is displayed below: 
+
+![Correlation Matrix Between Symptoms](images/symptom_heatmap.png)
+
+We also investigated the relationships between symtpom and disease. Significant correlations are plotted in the bar chart below, with a threshold set for 0.2. 
+
+![Significant Correlations between Symptoms and Disease](images/symptom_disease_correlation.png)
+
+## Model Selection & Feature Engineering
+
+## Model Results 
