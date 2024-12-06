@@ -52,7 +52,7 @@ We found that clients diagnosed with the Common Cold reported more symptoms over
 
 We also decided to look at the symptoms that occurred the most accross diseases. Fatigue, Vomiting, High Fever, Loss of Appetite and Nausea make up the top 5 most occurring symptoms accross diseases. The top 10 most occurring are shown in the plot below: 
 
-![Most Frequently Occurring Symptoms](images\symptoms_total_count.png)
+![Most Frequently Occurring Symptoms](images/symptoms_total_count.png)
 
 These observations provide us with insight on which symptoms might be most important to watch for, as well as which diseases our models might be biased towards when making predictions based on symptoms. 
 
