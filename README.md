@@ -18,11 +18,11 @@ Healthcare providers often struggle to quickly diagnose diseases due to a wide r
 3. **Providing Actionable Insights**: Use the models to guide decision making, improve clinical workflows, and support evidence-based practices in patient care.
 
 ## Methodology
-- Train and Test datasets retreived from [Kaggle](https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning)
-- Exploratory Analysis of Data 
-- Implementation of clustering techniques to group patients based on symptom similarities
-- Feature Selection and Importance
-- Model Validation (precision, recall, F1 score)
+- Exploratory Analysis 
+- Model Selection and Feature Engineering 
+- Model Assessment 
+- Conclusion and Next Steps 
+
 
 ## Exploratory Analysis 
 
