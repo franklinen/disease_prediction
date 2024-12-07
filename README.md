@@ -58,7 +58,7 @@ We also decided to look at the symptoms that occurred the most accross diseases.
 These observations provide us with insight on which symptoms might be most important to watch for, as well as which diseases our models might be biased towards when making predictions based on symptoms. 
 
 ### Correlation
-We chose to review correlation between variables in the event of any high correlation between feature and target. A correlation matrix is displayed below: 
+Some group members intend to use logistic regression models to assess the data. These models assume that there should be little or no multicolinearity among independent levels. We conduct tests to identify if any predictors are strongly correlated with other predictors/diseases.
 
 ![Correlation Matrix Between Symptoms](images/symptom_heatmap.png)
 
